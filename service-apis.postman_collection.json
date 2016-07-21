@@ -3,7 +3,8 @@
 	"name": "service-apis",
 	"description": "",
 	"order": [
-		"11459baf-b4e7-11c6-cbc0-08b2906b0cf1"
+		"11459baf-b4e7-11c6-cbc0-08b2906b0cf1",
+		"1dc98f9c-0f77-ce9f-b25c-497891d0899d"
 	],
 	"folders": [
 		{
@@ -259,6 +260,26 @@
 			"collectionId": "6eb13776-1cb4-e971-111a-3454dbc99950",
 			"responses": [],
 			"rawModeData": "web.app.url=https://apm-tubs-hackapm-basic.run.aws-usw02-pr.ice.predix.io/sample1\nadmin.user.name=sample1-admin\nadmin.password=test\nmgr.user.name=user1\nmgr.password=P@ssword1\nspace.name=hackapm\ndomain=run.aws-usw02-pr.ice.predix.io\n\nuse.proxy=false\nproxy.host=sjc1intproxy01.crd.ge.com\nproxy.port=8080\napm.app.client.id=apm_app\napm.app.client.secret=4h0dzucmop3t4nsq6qo4zg0m\n\n# Following properties will be set by default.\n#space.name\n#uaa.instance.id\n#uaa.host.name\n#url.domain\n#tenant.uuid\n#http.protocol\n\nuaa.url=${uaa.base.url}/oauth/token\n\nconfig.service.url=${http.protocol}://apm-config-${space.name}.${url.domain}/v1\napm.analytic.url=${http.protocol}://apm-analytic-${space.name}.${url.domain}/v1\napm.asset.url=${http.protocol}://apm-asset-${space.name}.${url.domain}/v1\napm.asset.adapter.url=${http.protocol}://apm-s95-adapter-${space.name}.${url.domain}/v1\napm.timeseries.url=${http.protocol}://apm-timeseries-services-${space.name}.${url.domain}/v1\napm.alarm.url=${http.protocol}://apm-alarm-management-${space.name}.${url.domain}/v1\napm.alert.profile.url=${http.protocol}://apm-profile-${space.name}.${url.domain}/v1\napm.filter.url=${http.protocol}://apm-filtering-meta-model-${space.name}.${url.domain}/v1\napm.gateway.url=${http.protocol}://apm-gateway-${space.name}.${url.domain}/v1\napm.notes.url=${http.protocol}://apm-note-management-${space.name}.${url.domain}/v1\napm.adapter.config.provider=${http.protocol}://apm-adapter-config-provider-${space.name}.${url.domain}/v1\napm.security.provisioning.base.url=${http.protocol}://apm-access-control-${space.name}.${url.domain}/v1\n\nservice.instance.px_acs.name=predix-acs\n# The following properties all belong to predix-acs as they have prefix \"service.instance.acs\"\n# Also, the values are the paths in the \"predix-acs\" object of the service instances response JSON\nservice.instance.px_acs.uri=/credentials/uri\nservice.instance.px_acs.zone.header.name=/credentials/zone/http-header-name\nservice.instance.px_acs.zone.header.value=/credentials/zone/http-header-value\nservice.instance.px_acs.oauth.scope=/credentials/zone/oauth-scope\n# The following property will be initialized with the authorization \"bearer <token>\" to talk to predix-acs\nservice.instance.px_acs.token=\n\nservice.instance.px_asset.name=predix-asset\nservice.instance.px_asset.uri=/credentials/uri\nservice.instance.px_asset.zone.header.name=/credentials/zone/http-header-name\nservice.instance.px_asset.zone.header.value=/credentials/zone/http-header-value\nservice.instance.px_asset.oauth.scope=/credentials/zone/oauth-scope\nservice.instance.px_asset.token=\n\nservice.instance.px_catalog.name=predix-analytics-catalog\nservice.instance.px_catalog.uri=/credentials/catalog_uri\nservice.instance.px_catalog.zone.header.name=/credentials/zone-http-header-name\nservice.instance.px_catalog.zone.header.value=/credentials/zone-http-header-value\nservice.instance.px_catalog.oauth.scope=/credentials/zone-oauth-scope\nservice.instance.px_catalog.token=\n\n#service.instance.px_runtime.name=predix-analytics-runtime\n#service.instance.px_runtime.config.uri=/credentials/config_uri\n#service.instance.px_runtime.execution.uri=/credentials/execution_uri\n#service.instance.px_runtime.monitoring.uri=/credentials/monitoring_uri\n#service.instance.px_runtime.scheduler.uri=/credentials/scheduler_uri\n#service.instance.px_runtime.zone.header.name=/credentials/zone-http-header-name\n#service.instance.px_runtime.zone.header.value=/credentials/zone-http-header-value\n#service.instance.px_runtime.oauth.scope=/credentials/zone-oauth-scope\n#service.instance.px_runtime.token=\n\nservice.instance.px_timeseries.name=predix-timeseries\nservice.instance.px_timeseries.uri=/credentials/query/uri\nservice.instance.px_timeseries.zone.header.name=/credentials/query/zone-http-header-name\nservice.instance.px_timeseries.zone.header.value=/credentials/query/zone-http-header-value\nservice.instance.px_timeseries.oauth.scope=/credentials/query/zone-token-scopes\nservice.instance.px_timeseries.token=\n\nuaa.base.url=${http.protocol}://${uaa.instance.id}.${uaa.host.name}.${url.domain}\nuaa.token.issuer.regex=^${uaa.url}/oauth/token$\nconfig.component.name=predixServiceInstances\n"
+		},
+		{
+			"id": "1dc98f9c-0f77-ce9f-b25c-497891d0899d",
+			"headers": "tenant: {{tenant.uuid}}\nAuthorization: {{mgr.authorization}}\n",
+			"url": "https://apm-ext-service-hackapm.run.aws-usw02-pr.ice.predix.io/v1/assets",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "6eb13776-1cb4-e971-111a-3454dbc99950",
+			"data": [],
+			"dataMode": "params",
+			"name": "starter-micro-service-api",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1469074160181,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "23953524-90ac-609f-4e11-bf34a2138dee",

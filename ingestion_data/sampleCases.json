@@ -1,0 +1,11 @@
+{
+  "name":"e2e case 1469126339488",
+  "severity":"3",
+  "symptoms":"test-automation-case",
+  "alertUuid":"75C62EB77C894328AF28F06157571C96",
+  "assetUuid":"/assets/bc0078c6-533c-4118-a0b6-79b4546c4a53",
+  "assetId":"Inverter1-ASSET-TYPE1",
+  "assetName": "Inverter #1 ASSET TYPE 1",
+  "assetAlias": "Inverter #1 ASSET TYPE 1 ALIAS",
+  "creatorUuid":"7449980F6E8843DCB202CA29C7961735"
+}

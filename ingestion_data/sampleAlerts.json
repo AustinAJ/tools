@@ -1,0 +1,24 @@
+{
+  "name": "Temperature-alert-F986CF56F72740509A61A3F355782B63",
+  "eventStart": "2016-07-20T16:37:51.000",
+  "storageReceiveTime": "2016-07-20T16:37:51.000",
+  "associatedMonitoredEntityUuid": "/assets/38eea704-0ef5-437b-885e-bcd79d89b92a",
+  "scanGroupData": {
+    "Tag_Temperature": "49.754055"
+  },
+  "eventStartOffset": 0,
+  "tenantId": "F986CF56F72740509A61A3F355782B63",
+    "tagsOfInterest": [
+    {
+     "tags": [
+	     { "uuid": "/tagTypes/f41a7723-231f-4388-b514-14713db86b17",
+	     "name":"Tag_Temperature",
+	     "renderType":null,
+	     "uom":null,
+	      "isContributing": true
+	      }
+      ]
+     }
+    ]
+  
+}

@@ -1,4 +1,4 @@
-# Predix Transform Hackathon 2016
+# Predix Transform Hackathon
 This aviation data set contains 20 sample flights with 300+ tags for each flight. To upload the data set, you will need two scripts - one to load the asset model, and one to load timeseries data for each tag. 
 
 ## Steps to load sample flight data

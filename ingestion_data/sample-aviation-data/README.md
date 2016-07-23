@@ -18,3 +18,7 @@ This aviation data set contains 20 sample flights with 300+ tags for each flight
 2. Replace the tenant value with the tenant UUID
 3. Replace "username=C3EB5163CB124AECA9839272371BA873_ingestor&password=Pa55w0rd" with the appropriate username and password
 4. Execute ingest_ts.sh script to ingest the timeseries data. It should take about 30 minutes to complete the ingestion
+
+
+Please reach out to any Hackathon support staff if you have any questions or issues.
+Good luck & Have Fun!

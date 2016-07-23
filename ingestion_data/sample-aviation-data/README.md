@@ -3,10 +3,9 @@ This aviation data set contains 20 sample flights with 300+ tags for each flight
 
 ## Steps to load sample flight data
 
-1. Go to {GIT_REPO}/ingestion_data/sample-aviation-data directory
-2. Unzip the flight-data.zip file. You should see 20 flight csv files within the folder
-3. Open a browser and go to https://apm-tubs-hackapm-basic.run.aws-usw02-pr.ice.predix.io/{YOUR_TENANT_NAME}
-4. Login in as an admin and click on the Setup tab. You are going to need Username, Password, and Tenant UUID for following steps
+1. Unzip the flight-data.zip file. You should see 20 flight csv files within the folder
+2. Open a browser and go to https://apm-tubs-hackapm-basic.run.aws-usw02-pr.ice.predix.io/{YOUR_TENANT_NAME}
+3. Login in as an admin and click on the Setup tab. You will need Username, Password, and Tenant UUID for the following steps
 
 ### Ingest assets
 1. Open ingest_asset.sh file in a text editor

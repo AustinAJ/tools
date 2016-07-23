@@ -20,5 +20,6 @@ This aviation data set contains 20 sample flights with 300+ tags for each flight
 4. Execute ingest_ts.sh script to ingest the timeseries data. It should take about 30 minutes to complete the ingestion
 
 
-Please reach out to any Hackathon support staff if you have any questions or issues.
-Good luck & Have Fun!
+
+*Please reach out to any Hackathon staff if you have any questions or issues.
+Good luck & have fun!

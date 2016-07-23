@@ -13,7 +13,7 @@ This aviation data set contains 20 sample flights with 300+ tags for each flight
 3. Replace "username=C3EB5163CB124AECA9839272371BA873_ingestor&password=Pa55w0rd" with the appropriate username and password
 4. Execute ingest_asset.sh script to ingest the asset. It should take about 1 minute to complete the request
 
-### Ingest timeSeries data 
+### Ingest timeseries data 
 1. Open ingest_ts.sh script in a text editor
 2. Replace the tenant value with the tenant UUID
 3. Replace "username=C3EB5163CB124AECA9839272371BA873_ingestor&password=Pa55w0rd" with the appropriate username and password
